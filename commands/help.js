@@ -153,9 +153,7 @@ async function helpCommand(sock, chatId, message) {
 ║ ➤ .sc
 ║ ➤ .script
 ║ ➤ .repo
-╚═══════════════════╝
-
-Join our channel for updates:`;
+╚═══════════════════╝`;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
