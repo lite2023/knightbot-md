@@ -8,7 +8,7 @@ module.exports = async function (sock, chatId, city) {
         const weatherText = `Weather in ${weather.name}: ${weather.weather[0].description}. Temperature: ${weather.main.temp}°C.`;
         await sock.sendMessage(chatId, { text: weatherText });
     } catch (error) {
-        console.error('Error fetching weather:', error);
-        await sock.sendMessage(chatId, { text: 'Sorry, I could not fetch the weather right now.' });
+        console.error('في خطء الطقس مش باين عندي:', error);
+        await sock.sendMessage(chatId, { text: 'اسف معرفتش اجيب الطقس فالوقت الحالي ده.' });
     }
 };
