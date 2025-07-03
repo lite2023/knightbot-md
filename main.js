@@ -108,7 +108,7 @@ const channelInfo = {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363161513685998@newsletter',
+            newsletterJid: 'I6dar9z1j26BpIWlsj26ML@newsletter',
             newsletterName: 'lightbot MD',
             serverMessageId: -1
         }
